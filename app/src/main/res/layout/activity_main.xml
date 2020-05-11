@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg"
+    android:id="@+id/bg_li"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="白天" />
+
+    <TextView
+        android:id="@+id/night"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="黑夜" />
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="今年以来，大连庄河市纪委监委坚持把学习教育、检视问题、整改提高贯穿警示教育活动全过程，结合实际因地制宜找准切入点、着力点，写好“五篇文章”，全面筑牢全市纪检监察干部拒腐防变的思想防线。
+
+　　做好“思想认识篇章”，确保受警醒明法纪。一是迅速印发活动方案。贯彻落实省、市纪委监委警示教育大会会议精神，结合工作实际第一时间制定下发《庄河市纪检监察系统警示教育活动方案》。二是召开线上视频会议。克服新冠病毒疫情影响，利用云视讯平台召开全市纪检监察干部警示教育视频会议，学习传达辽宁省、大连市有关纪检监察干部打听干预案件等相关办案纪律规定，对从严从实强化纪检监察干部队伍建设进行再部署。三是自主观看警示教育片，进一步敲响纪律警示钟，深刻警醒全体纪检监察干部把好用权“方向盘”，系好自律“安全带”。"
+        android:textColor="@color/color_text"
+        android:textSize="20sp" />
+
+</LinearLayout>
